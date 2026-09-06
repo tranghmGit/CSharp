@@ -1,4 +1,7 @@
-﻿namespace Poem
+﻿
+using Poem.SongCode;
+
+namespace Poem
 {
     internal class Program
     {
@@ -6,8 +9,9 @@
                         //Ex: salary, basicSalary,...
         static void Main(string[] args)
         {
-            //PrintPoem();
-            Verbatim();
+            PrintPoem();
+            Verbatim();        
+            XuanQuynh.PrintSongCode();
         }
         static void PrintPoem()
         {
@@ -39,6 +43,7 @@
         static void Verbatim()  //Verbatim String Literal - Chuỗi ký tự nguyên văn
         {
             string path = @"E:\CSharp\";
+            Console.WriteLine();
             Console.WriteLine($"Get verbatim path: {path}");
         }
 

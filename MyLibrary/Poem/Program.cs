@@ -6,7 +6,8 @@
                         //Ex: salary, basicSalary,...
         static void Main(string[] args)
         {
-            PrintPoem();
+            //PrintPoem();
+            Verbatim();
         }
         static void PrintPoem()
         {
@@ -35,7 +36,11 @@
                 Sugar is sweet
                 And so are you");
         }
-
+        static void Verbatim()  //Verbatim String Literal - Chuỗi ký tự nguyên văn
+        {
+            string path = @"E:\CSharp\";
+            Console.WriteLine($"Get verbatim path: {path}");
+        }
 
     }
 }

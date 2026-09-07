@@ -1,5 +1,5 @@
 ﻿
-using Poem.SongCode;
+using Poem.XuanQuynh;
 
 namespace Poem
 {
@@ -9,9 +9,9 @@ namespace Poem
                         //Ex: salary, basicSalary,...
         static void Main(string[] args)
         {
-            PrintPoem();
-            Verbatim();        
-            XuanQuynh.PrintSongCode();
+            //PrintPoem();
+            //Verbatim();        
+            Song.PrintSongCode();
         }
         static void PrintPoem()
         {
